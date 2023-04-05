@@ -25,12 +25,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define LOCKING_SUPPORT_ENABLE
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
-#define QUICK_TAP_TERM 20
-#define PERMISSIVE_HOLD
+#define TAPPING_TERM 300
+#define QUICK_TAP_TERM 100
+// #define PERMISSIVE_HOLD
 #define IGNORE_MOD_TAP_INTERRUPT
+#define TAPPING_TOGGLE 2
 /* disable debug print */
 //#define NO_DEBUG
-
 /* disable print */
 //#define NO_PRINT
 
